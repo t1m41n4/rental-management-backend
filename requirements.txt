@@ -1,0 +1,16 @@
+langchain
+langchain_community
+langchain_ollama
+langchain_groq
+requests
+beautifulsoup4
+pytz
+selenium
+webdriver_manager
+pillow
+geocoder
+fastapi
+uvicorn
+requests
+sqlalchemy
+psycopg2-binary   # PostgreSQL driver for SQLAlchemy
