@@ -1,9 +1,12 @@
-from datetime import datetime
-import pytz
 import locale
-import geocoder
 from dataclasses import dataclass
+from datetime import datetime
+
+import geocoder
+import pytz
+
 from config.log import logger
+
 
 @dataclass
 class UserSettings:

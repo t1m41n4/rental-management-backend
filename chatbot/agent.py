@@ -1,7 +1,9 @@
 import requests
 
+
 class RentalBot:
-    API_URL = "http://localhost:8000"  # Change if you deploy this API elsewhere
+    API_URL = "http://localhost:8000"  # Change if you deploy this API
+    # elsewhere
 
     def respond(self, query: str, tenant_id: int):
         # Check if the user is asking about rent due date
@@ -15,7 +17,10 @@ class RentalBot:
 
         # Add responses for other queries, like repair requests, etc.
         elif "repair" in query.lower():
-            return "For repairs, please contact maintenance at support@rentalservice.com."
+            return (
+
+                "For repairs, please contact maintenance at support@rentalservice.com."
+            )
 
         # Default response
         return "I can assist with rent and maintenance inquiries!"
