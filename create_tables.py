@@ -1,5 +1,5 @@
 from database.database import Base, engine  # Import the Base and engine from the database setup
-from database.models import Tenant  # Import the Tenant model
+from database.models import Tenant, Properties  # Import the Tenant model
 from sqlalchemy import exc
 
 # Create the tables in the database
